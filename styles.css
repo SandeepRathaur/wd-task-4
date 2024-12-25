@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .header {
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.5rem;
+  }
+  
+  .header .btn {
+    background: white;
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 1.2rem;
+  }
+  
+  .header .btn:hover {
+    background: #00c6ff;
+    color: white;
+  }
+  
+  .navbar {
+    background: #333;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  .section {
+    padding: 40px 20px;
+  }
+  
+  .about, .skills, .projects, .contact {
+    background: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .skills ul {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .projects .project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+  }
+  
+  .contact a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
